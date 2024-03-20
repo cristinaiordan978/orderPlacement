@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:run:suite": "cypress run --headed --spec 'cypress/e2e/productStore/orderPlacementProcess.cy.js'"
   },
   "repository": {
     "type": "git",
